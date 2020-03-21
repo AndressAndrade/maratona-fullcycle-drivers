@@ -1,0 +1,12 @@
+{
+  "drivers": [
+    {
+      "uuid": "45688cd6-7a27-4a7b-89c5-a9b604eefe2f",
+      "name": "Wesley"
+    },
+    {
+      "uuid": "384ab6e3-4d8d-4687-bb36-2ab5e3fc2d89",
+      "name": "Luiz"
+    }
+  ]
+}
