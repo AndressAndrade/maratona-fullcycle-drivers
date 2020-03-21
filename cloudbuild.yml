@@ -4,7 +4,7 @@ steps:
     args: ['go', 'build', './...']
 
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['docker', 'build', '--tag=gcr.io/$PROJECT_ID/maratona-driver', '.']
+    args: ['build', '--tag=gcr.io/$PROJECT_ID/maratona-driver', '.']
 
 images: ['gcr.io/$PROJECT_ID/maratona-driver']
 
